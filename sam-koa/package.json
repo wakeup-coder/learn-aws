@@ -1,0 +1,21 @@
+{
+  "name": "sam-koa",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "sam:build": "sam build",
+    "sam:deploy": "sam deploy --guided",
+    "sam:local": "sam local start-api",
+    "sam:invoke": "sam local invoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "koa": "^2.15.3",
+    "koa-router": "^13.0.1",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {}
+}
